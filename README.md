@@ -2,7 +2,9 @@
 
 Sistema fullstack que obtiene datos en tiempo real de la API de **REE (Red Eléctrica de España)**, los almacena en PostgreSQL y los expone mediante una API REST con frontend React.
 
-> **Nota:** En el equipo utilizado para realizar las pruebas no dispongo de permisos para instalar Docker. Por ello he añadido datos de prueba en el frontend para poder demostrar la interfaz y los gráficos sin necesidad de ejecutar el backend con base de datos. El proyecto funciona correctamente con Docker en entornos donde esté disponible.
+> **Nota:** El proyecto incluye docker-compose para ejecución completa.
+En el entorno de desarrollo utilizado no fue posible ejecutar Docker,
+por lo que se añadió un modo demo en el frontend para visualizar la interfaz.
 
 ## Checklist del reto
 
