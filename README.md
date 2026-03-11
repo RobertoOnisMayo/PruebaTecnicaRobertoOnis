@@ -27,6 +27,14 @@ por lo que se añadió un modo demo en el frontend para visualizar la interfaz.
 - los datos se almacenan planos para simplificar consultas
 - el cron actualiza últimos 7 días para evitar inconsistencias
 
+## Posibles mejoras futuras
+
+- Implementar migraciones de base de datos en lugar de `synchronize`.
+- Añadir cache para reducir llamadas a la API externa.
+- Añadir autenticación a la API.
+- Añadir más tests de integración.
+- Mejorar el dashboard con más visualizaciones.
+
 ## Stack
 
 - **Backend:** NestJS + TypeScript
