@@ -20,6 +20,13 @@ por lo que se añadió un modo demo en el frontend para visualizar la interfaz.
 - [x] **Formato:** Repositorio público en GitHub (o privado con invitación)
 - [x] **Documentación:** README con instrucciones de ejecución y decisiones de diseño
 
+## Decisiones de diseño
+
+- Se usa TypeORM para simplicidad en la prueba
+- synchronize=true para evitar gestión de migraciones
+- los datos se almacenan planos para simplificar consultas
+- el cron actualiza últimos 7 días para evitar inconsistencias
+
 ## Stack
 
 - **Backend:** NestJS + TypeScript
